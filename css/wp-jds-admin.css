@@ -1,0 +1,87 @@
+/*** Portfolio list table **/
+.wp-list-table .column-image {
+	width: 75px;
+}
+
+/**** CSS for Shortcode Popup ******/
+.wp-jds-popup-content {
+    margin: 0 auto 10px;
+    min-height: 450px;
+    display: none;
+	position: absolute;
+	border: 1px solid #555555;
+	top: 60px;
+	left: 0;
+	right: 0;
+	max-width: 800px;
+	background: none repeat scroll 0 0 #FFFFFF;
+	z-index:10002;
+	font: 12px "Lucida Grande",Verdana,Arial,sans-serif;
+	box-shadow: 0 4px 30px #000000;
+	color: #000000;	
+}
+.wp-jds-popup-content .description {
+	margin-left: 0px !important
+}
+.wp-jds-popup-overlay {
+	display: none;
+	background-color: #000000;
+    height: 100%;
+    left: 0;
+    opacity: 0.75;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
+.wp-jds-popup-header-title {
+    float: left;
+    padding: 10px 10px 0;
+    font-size: 14px;
+}
+.wp-jds-popup-close {
+ 	float: right;
+    padding: 6px 10px 0;
+    text-align: right;
+}
+.wp-jds-popup-close a{
+	outline: 0 !important;
+}
+.wp-jds-header-popup {
+    background-color: #222222;
+    color: #CFCFCF;
+    height: 40px;  
+    position: relative;
+    width: 100%;
+}
+.wp-jds-popup-content table.form-table {
+	margin : 15px !important;
+	width: 80% !important;	
+}
+#wp_jds_insert_shortcode {
+	margin: 15px;	
+}
+.wp-jds-shortcode-options {
+ 	display: none;
+}
+.wp-jds-popup-error {
+	padding:10px;
+	border:1px solid #CC0000;
+	background-color:#FFEBE8;
+	border-radius:5px;
+	margin: 15px 15px 0;
+}
+.wp-jds-shortcodes-options,.wp-jds-popup-error{
+	display:none;
+}
+/********** CSS for Shortcode Popup END ***********/
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px)   {
+	.wp-admin select{
+		height:100%;
+	}
+	.wp-jds-popup-content{
+		max-width:400px;
+		 min-height: 350px;
+		 
+	}
+}
